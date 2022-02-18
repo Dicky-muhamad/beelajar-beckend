@@ -53,8 +53,7 @@ describe('API ENDPOINT TESTING', () => {
     })
   })
 
-
-   it('POST Booking Page', (done) => {
+  it('POST Booking Page', (done) => {
     const image = __dirname + '/buktibayar.jpeg';
     const dataSample = {
       image,
